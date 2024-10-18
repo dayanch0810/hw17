@@ -8,8 +8,31 @@
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js.map"></script>
+    <style>
+        .bg-image {
+            background-image: url("img/slider-image.jpg");
+            background-color: #000000;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .bg-opacity {
+            background-color: rgba(000, 000, 000, 0.3);
+        }
+    </style>
 </head>
 <body>
+    <div class="bg-image">
+        <div class="bg-opacity py-5">
+            <div class="container text-white py-5 my-4 my-md-5">
+                <div class="small text-uppercase fw-semibold pb-2 pb-md-3">new restaurant in town</div>
+                <div class="h1 fw-semibold pb-3 pb-md-4">Enjoy our special menus every <br> Sunday and Friday</div>
+                <a href="#" class="btn btn-outline-light rounded-0 px-4">Reservation</a>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-6">
